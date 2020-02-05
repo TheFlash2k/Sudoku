@@ -49,7 +49,7 @@ int main() {
 		pause();
 		exit(0);
 	}
-	else
+	
 	intro();
 
 	setColor(colorDblue);
