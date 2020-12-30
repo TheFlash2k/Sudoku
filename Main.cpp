@@ -439,7 +439,7 @@ void end(int tableNumber){
 	getch();
 	getch();
 }
-
+// Sets the console color using the SetConsoleTextAttribute from windows API
 void setColor(int color = colorWhite) {
 	HANDLE conHandler = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(conHandler, color);
